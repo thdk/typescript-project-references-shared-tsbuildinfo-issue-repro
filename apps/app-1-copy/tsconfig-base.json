@@ -1,8 +1,0 @@
-{
-  "extends": "@thdk/typescript-config-node",
-  "compilerOptions": {
-    // We can override our organization's base config here if needed
-    // Example for legacy projects we can set strict mode off for app-2
-    "strict": false
-  }
-}

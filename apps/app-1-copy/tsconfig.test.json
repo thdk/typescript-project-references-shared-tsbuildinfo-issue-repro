@@ -1,9 +1,0 @@
-{
-  "extends": "./tsconfig-base",
-  "include": ["src/**/*.ts", "tests/"],
-  "compilerOptions": {
-    "outDir": "out-tsc/test",
-    "tsBuildInfoFile": "out-tsc/test/tsconfig.test.tsbuildinfo"
-  },
-  "references": [{ "path": "./tsconfig.build.json" }]
-}
