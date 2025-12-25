@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig-base",
+  "references": [
+    {
+      "path": "../core"
+    }
+  ],
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.test.ts"]
+}

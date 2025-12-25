@@ -1,0 +1,22 @@
+{
+  "name": "@thdk/typescript-config-vite-react",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": "./tsconfig.json",
+    "./tsconfig.json": "./tsconfig.json"
+  },
+  "dependencies": {
+    "@tsconfig/vite-react": "catalog:"
+  },
+  "devDependencies": {
+    "prettier": "catalog:"
+  }
+}

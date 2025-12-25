@@ -1,0 +1,25 @@
+packages:
+  - apps/*
+  - packages/*
+
+catalog:
+  '@tsconfig/node24': 24.0.3
+  '@tsconfig/vite-react': 7.0.2
+  '@types/node': 25.0.3
+  '@types/react': ^19.2.7
+  prettier: 3.7.4
+  react: ^19.2.3
+  react-dom: ^19.2.3
+  typescript: 5.9.3
+  vite: ^7.3.0
+  vitest: 4.0.16
+
+catalogMode: strict
+
+cleanupUnusedCatalogs: true
+
+linkWorkspacePackages: true
+
+minimumReleaseAge: 1440
+
+preferWorkspacePackages: true

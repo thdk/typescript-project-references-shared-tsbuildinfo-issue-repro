@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig-base",
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "tsBuildInfoFile": "out-tsc/build/tsconfig.build.tsbuildinfo"
+  }
+}
