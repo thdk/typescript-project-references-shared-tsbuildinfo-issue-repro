@@ -1,11 +1,11 @@
 {
-  "name": "app-2",
+  "name": "app-1-copy",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "scripts": {
     "build": "tsc --build tsconfig.build.json",
-    "typecheck": "tsc --build --emitDeclarationOnly",
+    "typecheck": "tsc --build --emitDeclarationOnly --verbose",
     "test": "vitest --watch false",
     "format": "prettier . --write"
   },

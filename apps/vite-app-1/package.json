@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "typecheck": "tsc --build --emitDeclarationOnly",
+    "typecheck": "tsc --build --emitDeclarationOnly --verbose",
     "test": "vitest --watch false",
     "format": "prettier . --write"
   },

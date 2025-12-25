@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { greet } from "./index.js";
+import { greet } from "./greet.js";
 
 test("sample test", () => {
   expect(greet("bar")).toBe("Hello, bar!");
